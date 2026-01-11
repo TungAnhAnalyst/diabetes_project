@@ -4,7 +4,7 @@ Dep. Variable:     diagnosed_diabetes   No. Observations:                80000
 Model:                          Logit   Df Residuals:                    79975
 Method:                           MLE   Df Model:                           24
 Date:                Sun, 11 Jan 2026   Pseudo R-squ.:                 0.02437
-Time:                        19:22:14   Log-Likelihood:                -52530.
+Time:                        19:39:54   Log-Likelihood:                -52530.
 converged:                       True   LL-Null:                       -53842.
 Covariance Type:            nonrobust   LLR p-value:                     0.000
 ======================================================================================================
