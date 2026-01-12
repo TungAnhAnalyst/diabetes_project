@@ -1,26 +1,37 @@
 Diabetes Project
 ==============================
 
-A data science project analyzing the relationship between lifestyle factors and diagnosed diabetes.
+A data science project examining the association between demographic and lifestyle factors and diagnosed diabetes.
 
 Project Overview
 ------------
 
-This repository contains code, data, notebooks, and reports for exploring and modeling diagnosed diabetes using clinical and lifestyle predictors such as age, BMI, and smoking status. The primary objective is to understand key risk factors and build an interpretable logistic regression model to estimate the probability of diabetes diagnosis.
+This repository contains code, data, notebooks, and reports for analyzing and modeling diagnosed diabetes using non-clinical predictors, including demographic characteristics (e.g., age, gender) and lifestyle behaviors (e.g., physical activity, screen time, sleep duration, alcohol consumption, and smoking status).
+
+The primary objective is to identify key lifestyle-related risk factors and develop interpretable predictive models that estimate the probability of a diabetes diagnosis without relying on laboratory or clinical measurements.
+
+Modeling Approach
+----------------
+
+Two modeling approaches are implemented:
+- Logistic Regression, used as the primary model for interpretability and risk factor analysis
+- XGBoost, used as a complementary model to capture non-linear relationships and interactions
+
+Model performance is evaluated using classification metrics appropriate for imbalanced health outcomes, with particular attention to recall.
 
 Project Organization
 ------------
 
-    ├── .idea               <- IDE configuration files (can be ignored)
+    ├── .idea               <- IDE configuration files
     ├── README.md           <- The top-level README for developers using this project.
     ├── data
     │   ├── raw             <- Original, immutable data files
     │   └── processed       <- Final datasets used for analysis and modeling
     │
-    ├── models              <- Trained and serialized models (e.g., logistic regression)
+    ├── models              <- Trained and serialized models
     │
     ├── notebooks           <- Jupyter notebooks for EDA and modeling
-    │                         (e.g., exploratory analysis, logistic regression)
+    │                         
     │
     ├── reports             <- Generated analysis outputs
     │   └── figures         <- Generated graphics and figures for reporting

@@ -1,0 +1,40 @@
+DATASET OVERVIEW
+This dataset contains 100,000 synthetic patient records for diabetes risk prediction, exploratory analysis, and machine learning applications. The data is fully cleaned, preprocessed, and suitable for classification, regression, feature engineering, statistical analysis, and visualization.
+Rows: 100,000 | Columns: 35+ | File: diabetes_dataset.csv
+
+DATASET DESCRIPTION
+The dataset includes patient-level demographic, socioeconomic, lifestyle, medical history, and clinical measurement variables commonly associated with diabetes risk. Data are synthetically generated using statistically informed distributions inspired by real-world medical research, preserving privacy while maintaining realistic health patterns.
+
+FEATURES
+- patient_id: Integer, unique patient identifier (1–100000)
+- age: Integer, patient age in years (18–90)
+- gender: Categorical string, Male / Female / Other
+- ethnicity: Categorical string, White / Hispanic / Black / Asian / Other
+- education_level: Categorical string, No formal / Highschool / Graduate / Postgraduate
+- income_level: Categorical string, Low / Medium / High
+- employment_status: Categorical string, Employed / Unemployed / Retired / Student
+- smoking_status: Categorical string, Never / Former / Current
+- alcohol_consumption_per_week: Float, drinks consumed per week (0–30)
+- physical_activity_minutes_per_week: Integer, physical activity per week in minutes (0–600)
+- diet_score: Integer, diet quality score (0–10, higher = healthier)
+- sleep_hours_per_day: Float, average sleep hours per day (3–12)
+- screen_time_hours_per_day: Float, average daily screen time in hours (0–12)
+- family_history_diabetes: Binary integer, family history of diabetes (0 = No, 1 = Yes)
+- hypertension_history: Binary integer, history of hypertension (0 = No, 1 = Yes)
+- cardiovascular_history: Binary integer, history of cardiovascular disease (0 = No, 1 = Yes)
+- bmi: Float, body mass index in kg/m² (15–45)
+- waist_to_hip_ratio: Float, waist-to-hip ratio (0.7–1.2)
+- systolic_bp: Integer, systolic blood pressure in mmHg (90–180)
+- diastolic_bp: Integer, diastolic blood pressure in mmHg (60–120)
+- heart_rate: Integer, resting heart rate in bpm (50–120)
+- cholesterol_total: Float, total cholesterol in mg/dL (120–300)
+- hdl_cholesterol: Float, HDL cholesterol in mg/dL (20–100)
+- ldl_cholesterol: Float, LDL cholesterol in mg/dL (50–200)
+- triglycerides: Float, triglycerides in mg/dL (50–500)
+- glucose_fasting: Float, fasting glucose in mg/dL (70–250)
+- glucose_postprandial: Float, postprandial glucose in mg/dL (90–350)
+- insulin_level: Float, blood insulin level in µU/mL (2–50)
+- hba1c: Float, HbA1c percentage (4–14)
+- diabetes_risk_score: Integer, composite diabetes risk score (0–100)
+- diabetes_stage: Categorical string, No Diabetes / Pre-Diabetes / Type 1 / Type 2 / Gestational
+- diagnosed_diabetes: Binary integer, target variable indicating diabetes diagnosis (0 = No, 1 = Yes)
